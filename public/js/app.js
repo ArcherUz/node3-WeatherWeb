@@ -23,7 +23,7 @@ weatherForm.addEventListener('submit', (e)=>{
                     return
                 }
                 messageOne.textContent = data.location
-                messageTwo.textContent = data.forecast
+                messageTwo.innerHTML = data.forecast
             })
         })
     }
